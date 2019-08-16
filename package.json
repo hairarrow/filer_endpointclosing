@@ -1,0 +1,27 @@
+{
+  "name": "filer_endpointclosing",
+  "version": "0.0.1",
+  "description": "A simple utility that creates, moves, or deletes directories (MOCK)",
+  "main": "index.js",
+  "repository": "https://github.com/hairarrow/filer_endpointclosing",
+  "author": "Emmanuel Herrero",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.2",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
